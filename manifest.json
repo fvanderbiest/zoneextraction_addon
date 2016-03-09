@@ -1,0 +1,44 @@
+{
+    "js": [
+        "js/WPS_Utils.js",
+        "js/main.js",
+        "../../../lib/proj4js/lib/proj4js-combined.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WCSGetCoverage.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WPSExecute.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/WPSClient.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/WPSProcess.js"
+    ],
+    "css": [
+        "css/zoneextraction.css"
+    ],
+    "default_options": {
+        "mode": "static",
+        "showintoolmenu": true        
+    },
+    "i18n": {
+        "en": {
+               "zoneextraction.title": "Polygon extraction",
+               "zoneextraction.activate": "Activate",
+               "zoneextraction.workspace": "Workspace",
+               "zoneextraction.layername": "Layer name",
+               "zoneextraction.projection": "Projection",
+               "zoneextraction.ranges":"Ranges",
+               "zoneextraction.band": "Band",
+               "zoneextraction.submit": "Validate",
+               "zoneextraction.warning.message": "You should fill the layer name and workspace fields",
+               "zoneextraction.import": "Import"               
+              },
+        "fr": {
+               "zoneextraction.title": "Extraction des zones",
+               "zoneextraction.activate": "Activer",
+               "zoneextraction.workspace": "Espace de travail",
+               "zoneextraction.layername": "Nom de la couche",
+               "zoneextraction.projection": "Projection",
+               "zoneextraction.ranges": "Ranges",
+               "zoneextraction.band": "Bande",
+               "zoneextraction.submit": "Valider",
+               "zoneextraction.warning.message": "Vous devez remplir Les champs couche et espace de travail.",
+               "zoneextraction.import": "Importer"
+              }
+    }
+}
